@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age calc</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="project">
+        <div class="inputs">
+            <form action="#">
+                <div class="vaules">
+                
+            <div class="day"> <label for="day">day</label><input type="text"  id="day" maxlength="2"><label for="day" class="error"    id="error-day">must be vaild day</div>
+            <div class="month">  <label for="month">month</label>  <input type="text"  id="Month" maxlength="2"><label for="month" class="error" id="error-month">must be vaild month</label></div>
+            <div class="year"><label for="YEAR">year</label><input type="text" id="YEAR" minlength="4"   maxlength="4"><label for="YEAR" class="error" id="error-year">must be vaild YEAR</label></div>
+            
+        </div>
+        <p class="all-empty">please fill all the inputs</p>
+                <input type="submit" value="⬇" id="submit">
+            </form>
+        <div class="result">
+            <div ><span id="result__years">31</span><span class="words_format">years</span></div> 
+            <div><span  id="result__months">55</span><span class="words_format">monts</span></div> 
+            <div><span  id="result__days">310</span><span class="words_format">days</span></div> 
+ 
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
